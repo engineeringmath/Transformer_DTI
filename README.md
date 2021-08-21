@@ -15,8 +15,8 @@ For questions and comments please email davood.karimi@childrens.harvard.edu.
 
 A trained docker model can used by running the following lines.
 
-docker pull davoodk/brain_extractiotransformer_dti
-docker run   --mount src=/DATA_DIR/,target=/src/test_images/,type=bind  brain_extractiontransformer_dti:1.0
+docker pull davoodk/transformer_dti
+docker run   --mount src=/DATA_DIR/,target=/src/results/,type=bind  transformer_dti:1.0
 
 DATA_DIR refers to your local data directory. For the code to run successfully, you need to place the folloiwng files in DATA_DIR:
 
