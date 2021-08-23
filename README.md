@@ -11,6 +11,13 @@ The work was completed at IMAGINE laboratory of Boston Children's Hospital, Harv
 For questions and comments please email davood.karimi@childrens.harvard.edu.
 
 
+## Model architecture
+
+![older](results/diagram.png)  
+
+
+
+
 ## Trained model
 
 A trained docker model can used by running the following lines.
